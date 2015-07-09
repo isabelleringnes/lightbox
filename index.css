@@ -26,5 +26,20 @@
 }
 
 body {
-    background-image: url("http://i.giphy.com/5wWf7GWPCQm19wwIotW.gif");
+     background: url("http://i.giphy.com/5wWf7GWPCQm19wwIotW.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+    border-color: red;
+    border: solid;
+    border-radius: 50%;
+    display: -webkit-box;
+}
+
+.para1 {
+    display: inline-block;
 }
